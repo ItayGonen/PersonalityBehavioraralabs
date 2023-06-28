@@ -1,0 +1,32 @@
+.too-fast-div {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background: rgb(92,24,191);
+    background: linear-gradient(90deg, rgba(92,24,191,1) 0%, rgba(172,140,219,1) 100%, rgba(250,249,246,1) 100%);
+    padding: 20px;
+}
+
+.too-fast-div p {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.too-fast-div button {
+    width: 80%;
+    padding: 20px 5px;
+    background-color: #fff;
+    border: none;
+    border-radius: 15px;
+    font-size: 17.5px;
+    font-weight: bold;
+    color: #ac8cdb;
+    box-shadow: 5px 1px 10px #464242; 
+    cursor: pointer;
+    /* align-self: center; */
+    margin-top: 50px;
+}

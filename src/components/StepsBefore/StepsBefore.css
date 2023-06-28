@@ -1,0 +1,150 @@
+.quiz-main-container {
+    background: rgb(92,24,191);
+    background: linear-gradient(90deg, rgba(92,24,191,1) 0%, rgba(172,140,219,1) 100%, rgba(250,249,246,1) 100%);
+    height: 100vh;
+}
+
+.quiz-game-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 100%;
+    padding: 100px;
+}
+
+.quiz-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: white;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.step-title-div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.step-title-div p {
+    font-size: 1.2rem;
+}
+
+#para {
+    font-size: 1.25rem;
+}
+
+.next-button {
+    width: 100%;
+    padding: 20px 5px;
+    background-color: #fff;
+    border: none;
+    border-radius: 15px;
+    font-size: 17.5px;
+    font-weight: bold;
+    color: #ac8cdb;
+    box-shadow: 5px 1px 10px #464242; 
+    cursor: pointer;
+    /* align-self: center; */
+    margin-top: 50px;
+    width: 100%;
+}
+
+.image-animation {
+    object-fit: cover;
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+
+.image-animation-start{
+    -webkit-animation: mover-up 1.5s ease-in alternate;
+    animation: mover-up 1.5s ease-in alternate;
+}
+
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+@-webkit-keyframes mover-up {
+    0% { 
+        transform: translateY(0);
+        opacity: 1; 
+    }
+    100% { 
+        transform: translateY(-700px); 
+        opacity: 0;
+    }
+}
+@keyframes mover-up {
+    0% { 
+        transform: translateY(0); 
+        opacity: 1;
+    }
+    100% { 
+        transform: translateY(-700px); 
+        opacity: 0;
+    }
+}
+
+.p-opa {
+    animation: opa 0.5s ease-in;
+}
+
+
+@keyframes opa {
+    0% {
+        opacity: 0;
+    } 100% {
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .image-animation {
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .quiz-layout {
+        width: 100%;
+    }
+    .step-title-div p {
+        font-size: 0.9rem;
+    }
+
+    .step-title-div h1 {
+        font-size: 1.5rem;
+    }
+    #para {
+        font-size: 1rem;
+    }
+    .next-button {
+        padding: 15px 5px;       
+    }
+    .image-animation {
+        object-fit: cover;
+        width: 75%;
+    }
+    .image-animation-start{
+        width: 75%;
+    }
+    .quiz-game-container {
+        padding: 30px;
+    }
+}

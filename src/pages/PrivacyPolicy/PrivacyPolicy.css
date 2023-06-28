@@ -1,0 +1,33 @@
+.privacy-policy-conatiner {
+    padding: 200px 0px 50px 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.privacy {
+    width: 80%;
+}
+
+.in-short {
+    font-style: italic;
+    font-size: 14px;
+}
+
+.privacy-item {
+    padding: 10px 0px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .privacy-policy-conatiner {
+        padding: 100px 10px 0px 20px;
+    }
+    .privacy {
+        width: 90%;
+    }
+    .privacy-policy-conatiner h1 {
+        font-size: 25px;
+    }
+}

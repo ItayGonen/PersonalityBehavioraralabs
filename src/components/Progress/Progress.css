@@ -1,0 +1,42 @@
+.progress {
+    width: 50%;
+    background-color: rgb(179, 114, 184);
+    border-radius: 10px;
+    /* border: 3px solid white; */
+    padding: 0px;
+}
+
+.progress-bar {
+    width: 50%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: bold;
+    border-bottom-left-radius:10px;
+    border-top-left-radius: 10px;
+    background-color: #ffffff;
+    transition: all 0.5s;
+    padding: 3px;
+}
+
+.progress-animation {
+    animation: progress-ani 1s ease-in;
+}
+
+@keyframes progress-ani {
+    from {
+        width: 0%;
+    } to {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .progress {
+        width: 65%;
+        /* border: 2px solid white; */
+    }
+    .progress-bar {
+        font-size: 0.75rem;
+    }
+}

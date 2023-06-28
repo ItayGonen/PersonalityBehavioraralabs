@@ -1,0 +1,116 @@
+.option {
+    width: 40%;
+    padding: 17.5px;
+    border-radius: 15px;
+    box-shadow: 1px 3px 8px 0.15px #c9b9b9;
+    margin: 1%;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    /* transition: all 0.25s; */
+}
+
+.option-img {
+    width: 100%;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 1px 3px 8px 0.15px #c9b9b9;
+    /* margin: 10% 10%; */
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.25s;
+}
+
+.option:hover {
+    opacity: 0.75;
+}
+
+@keyframes begining-opacity {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
+
+
+.option-1 {
+    background-color: rgba(162, 173, 163, 0.175);
+    animation: begining-opacity 0.5s;
+}
+
+.option-2 {
+    background-color: rgba(162, 173, 163, 0.325);
+    animation: begining-opacity 1s;
+}
+
+.option-3 {
+    background-color: rgba(162, 173, 163, 0.475);
+    animation: begining-opacity 1.5s;
+}
+
+.option-4 {
+    background-color: rgba(162, 173, 163, 0.625);
+    animation: begining-opacity 2s;
+}
+
+.option-5 {
+    background-color: rgba(162, 173, 163, 0.775);
+    animation: begining-opacity 2.5s;
+}
+
+.selected-animation-class {
+    background-color: #ac8cdb;
+    opacity: 0.5;
+}
+
+.select-icon-check {
+    position: absolute;
+    top: 20%;
+    right: 0%;
+    color: white;
+    font-size: 35px;
+}
+
+.img-option {
+    width: 50%;
+}
+
+.p-text-option {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.option-true-or-false {
+    width: 40%;
+    padding: 40px;
+    border-radius: 15px;
+    margin: 1% 0%;
+    box-shadow: 1px 3px 8px 0.15px #c9b9b9;
+    cursor: pointer;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.option-true-or-false:hover {
+    opacity: 0.75;
+}
+
+@media screen and (max-width: 768px) {
+    .option {
+        width: 70%;
+        padding: 7.5px;
+        margin: 4%;
+    }
+    .option-true-or-false {
+        width: 70%;
+        padding: 30.5px;
+        margin: 4%;
+    }
+    .select-icon-check {
+        font-size: 20px;
+    }
+}

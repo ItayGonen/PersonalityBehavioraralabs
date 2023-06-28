@@ -1,0 +1,38 @@
+.main-second {
+    width: 100vw;
+    background-color: rgb(251, 240, 240);
+    border-top-right-radius: 80px 80px;
+    padding-bottom: 30px;
+}
+
+.second-div {   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0% 10%;
+}
+
+
+
+.second-div-item { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    text-align: center;
+    gap: 20px;
+    /* color: red; */
+    /* width: 100%; */
+}
+
+.second-div-item h2 {
+    font-size: 30px;
+}
+
+
+
+.second-div-item p {
+    color: #8795a1;
+}
+

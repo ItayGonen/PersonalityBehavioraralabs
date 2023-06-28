@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "https://store.payproglobal.com/thankyou"
+  to = "/quiz"
+  status = 301

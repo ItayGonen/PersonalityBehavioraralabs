@@ -1,0 +1,39 @@
+
+.questions-number-from {
+    position: absolute;
+    top: 15%;
+    color: #5c18bf;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.question-text {
+    position: absolute;
+    top: 45%;
+    font-size: 2.25rem;
+    font-weight: 500;
+    /* transition: all 2s; */
+}
+
+.span-from-number {
+    color: #5c18bf;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+@media screen and (max-width: 1600px) {
+    .question-text {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .questions-number-from {    
+        font-size: 0.8rem;
+    }
+    .question-text {
+        font-size: 1.4rem;;
+    }
+   
+}

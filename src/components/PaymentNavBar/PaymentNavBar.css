@@ -1,0 +1,12 @@
+nav {
+    background-color: rgb(251, 240, 240);
+    z-index: 1000;
+}
+
+.payment-nav {
+    padding: 16px;
+    background-color: rgb(251, 240, 240);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

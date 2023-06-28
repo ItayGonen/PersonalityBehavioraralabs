@@ -1,0 +1,59 @@
+.progress-res {
+    width: 50%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    /* border: 3px solid white; */
+    padding: 0px;
+}
+
+.progress-bar-res {
+    width: 50%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: bold;
+    border-bottom-left-radius:10px;
+    border-top-left-radius: 10px;
+    background: rgb(92,24,191);
+    background: linear-gradient(90deg, rgba(92,24,191,1) 0%, rgba(172,140,219,1) 100%, rgba(250,249,246,1) 100%);
+    transition: all 0.5s;
+    padding: 5px;
+}
+
+.progress-bar-res-fully {
+    width: 50%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: bold;
+    border-bottom-left-radius:10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background: rgb(92,24,191);
+    background: linear-gradient(90deg, rgba(92,24,191,1) 0%, rgba(172,140,219,1) 100%, rgba(250,249,246,1) 100%);
+    transition: all 0.5s;
+    padding: 10px;
+}
+
+.progress-animation-res {
+    animation: progress-ani 1s ease-in;
+}
+
+@keyframes progress-ani {
+    from {
+        width: 0%;
+    } to {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .progress-res {
+        width: 65%;
+        /* border: 2px solid white; */
+    }
+    .progress-bar-res {
+        font-size: 0.75rem;
+    }
+}
