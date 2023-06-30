@@ -6,6 +6,7 @@ import {
     Link
 } from "react-router-dom";
 import logoImage from '../../assets/Feelings/logo.png';
+import logoSvgImg from '../../assets/personality-logo.svg';
 
 const Navbar = () => {
 
@@ -36,8 +37,12 @@ const Navbar = () => {
   return (
     <nav id='nav' className='nav'>
         <div className='icon-div'>
-            <Link to="" id="logo" className='logo'> Behaviora<span style={{ color: '#ac8cdb' }}>Labs</span></Link> 
-            {/* <img src={logoImage} className="logo-image" /> */}
+            {/* <Link to="" id="logo" className='logo'> Behaviora<span style={{ color: '#ac8cdb' }}>Labs</span></Link>  */}
+            <img 
+                href="/"
+                src={logoSvgImg}
+                style={{ width: '50%', height: '50px' }} 
+            />
             <FontAwesomeIcon 
                 icon={!responsive ?  faBars : faClose}
                 className='bars-icon'

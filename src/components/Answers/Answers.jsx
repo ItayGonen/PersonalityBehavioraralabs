@@ -265,7 +265,7 @@ const Answers = (props) => {
                 </div>
                 <div className='price'>
                     {/* <p style={{ textDecoration: 'line-through', fontSize: '1.3rem' }}> 24.99$ </p> */}
-                    <p> 7.99$ </p>
+                    <p> 9.99$ </p>
                 </div>
                 <div className='lines'>
                     <hr />

@@ -1,10 +1,13 @@
 import React from 'react';
 import './Footer.css';
+import logoImgFooterImg from '../../assets/personality-logo-for-footer.svg'
 
 const Footer = () => {
   return (
     <div className='footer-container'>
-        <div className='footer-logo'> Behaviora<span style={{ color: '#ac8cdb' }}>Labs</span> </div>
+        <div className='footer-logo'> 
+          <img src={logoImgFooterImg} style={{ width: '100%' }} />
+        </div>
         <div className='footer-items'> 
             <a href="/terms-conditions">Terms Of Services</a>
             <a href="/privacy-policy">Privacy Policy</a>

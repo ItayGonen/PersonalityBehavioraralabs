@@ -37,7 +37,7 @@
     width: 60%;
     height: 25%;
     position: relative;
-    padding: 50px 20px;
+    padding: 50px 40px;
     animation: questions-div-animation 2.5s;
 }
 
@@ -120,7 +120,7 @@ svg {
         width: 90%;
         margin-top: 15%;
         /* height: 25%; */
-        padding: 25px 105px;
+        /* padding: 25px 105px; */
     }   
     .left-icon {
         top: 2%;
